@@ -81,7 +81,7 @@ export default function HomeSection() {
 
               {/* Headline */}
               <h1 className="home-headline">
-                I build the systems that keep AI products running in production.
+                I build systems that keep AI products running in production.
               </h1>
 
               {/* Stack line */}
