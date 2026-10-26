@@ -1,0 +1,37 @@
+/* Education Section Styles */
+
+.education-section {
+  @apply relative py-14 sm:py-16 md:py-20 bg-brand-bg dark:bg-gray-950 transition-colors duration-500 border-t border-gray-200 dark:border-gray-800/80;
+}
+
+.education-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10;
+}
+
+.education-heading {
+  @apply text-3xl md:text-4xl font-black text-brand-primary dark:text-brand-accent tracking-tight mb-6 sm:mb-8;
+}
+
+.education-header-row {
+  @apply flex items-start sm:items-center mb-4 sm:mb-5;
+}
+
+.education-seal-wrapper {
+  @apply shrink-0 w-11 h-11 sm:w-14 sm:h-14 mr-3.5 sm:mr-4 lg:mr-5 flex items-center justify-center mt-0.5 sm:mt-0;
+}
+
+.education-degree {
+  @apply text-base sm:text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100 leading-snug;
+}
+
+.education-school {
+  @apply text-sm sm:text-base text-gray-600 dark:text-gray-400 mt-1 font-medium;
+}
+
+.education-coursework {
+  @apply text-[15px] md:text-base font-medium text-gray-800 dark:text-gray-200 leading-relaxed max-w-5xl;
+}
+
+.education-coursework-label {
+  @apply font-bold text-gray-900 dark:text-white;
+}

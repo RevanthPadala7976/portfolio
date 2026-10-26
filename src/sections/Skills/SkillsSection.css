@@ -1,0 +1,77 @@
+/* Skills Section Styles */
+
+.skills-section {
+  @apply relative py-16 sm:py-20 lg:py-24 bg-brand-bg dark:bg-gray-950 transition-colors duration-500 overflow-hidden;
+}
+
+.skills-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10;
+}
+
+.skills-heading {
+  @apply text-3xl md:text-4xl font-black text-brand-primary dark:text-brand-accent tracking-tight;
+}
+
+.skills-subtitle {
+  @apply text-sm font-medium text-gray-500 mt-2;
+}
+
+.skills-filter-rail {
+  @apply flex flex-wrap gap-2 mb-8;
+}
+
+.skills-filter-btn {
+  @apply px-3.5 sm:px-4 py-1.5 rounded-full text-xs sm:text-sm font-medium transition-colors outline-none focus-visible:ring-2 focus-visible:ring-brand-primary;
+}
+
+.skills-filter-btn-active {
+  @apply bg-brand-primary text-white dark:bg-brand-accent dark:text-gray-950;
+}
+
+.skills-filter-btn-inactive {
+  @apply bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-900 dark:text-gray-400 dark:hover:bg-gray-800;
+}
+
+.skills-stack-wrapper {
+  @apply relative pl-0 lg:pl-10;
+}
+
+.skills-gutter {
+  @apply hidden lg:block absolute left-0 top-0 bottom-0 w-4 border-r border-dashed border-gray-300 dark:border-gray-800;
+}
+
+.skills-gutter-dot {
+  @apply absolute left-[13px] top-0 w-2 h-2 rounded-full bg-brand-primary dark:bg-brand-accent -translate-x-1/2 -translate-y-1/2;
+}
+
+.skills-band {
+  @apply flex flex-col lg:flex-row lg:items-start gap-3 sm:gap-4 lg:gap-6 p-3.5 sm:p-[14px_16px] border-[0.5px] rounded-lg transition-colors;
+}
+
+.skills-band-standard {
+  @apply border-gray-200 dark:border-gray-800;
+}
+
+.skills-band-workflow {
+  @apply border-gray-300 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-900/30;
+}
+
+.skills-layer-title {
+  @apply lg:w-[120px] shrink-0 font-semibold lg:font-medium text-gray-900 dark:text-gray-100 text-sm;
+}
+
+.skills-chip-list {
+  @apply flex flex-wrap gap-2 m-0 p-0 list-none;
+}
+
+.skills-chip {
+  @apply min-h-[26px] py-1 px-2.5 rounded-[5px] text-[12px] font-medium flex items-center transition-opacity duration-300;
+}
+
+.skills-chip-core {
+  @apply bg-brand-primary/10 text-brand-primary dark:bg-brand-accent/10 dark:text-brand-accent;
+}
+
+.skills-chip-regular {
+  @apply border border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300;
+}

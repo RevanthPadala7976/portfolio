@@ -1,0 +1,14 @@
+# Dependencies
+node_modules
+
+# Production build
+dist
+dist-ssr
+
+# Local environment variables
+.env.local
+.env.*.local
+
+# OS & Editor files
+.DS_Store
+*.local

@@ -1,0 +1,5 @@
+/* App Shell Styles */
+
+.app-shell {
+  @apply min-h-screen bg-brand-bg dark:bg-gray-950 transition-colors duration-500;
+}

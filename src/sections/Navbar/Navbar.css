@@ -1,0 +1,45 @@
+/* Navbar Styles */
+
+.navbar {
+  @apply fixed top-0 w-full z-50 bg-brand-bg/85 dark:bg-gray-950/85 backdrop-blur-md border-b border-gray-200 dark:border-gray-800 transition-colors duration-300;
+}
+
+.navbar-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.navbar-inner {
+  @apply flex justify-between items-center py-3.5 sm:py-4;
+}
+
+.navbar-logo {
+  @apply font-bold text-xl text-gray-900 dark:text-white tracking-tight;
+}
+
+.navbar-desktop-links {
+  @apply hidden md:flex items-center space-x-5 lg:space-x-8;
+}
+
+.navbar-link {
+  @apply cursor-pointer text-sm font-semibold text-gray-600 hover:text-brand-primary dark:text-gray-300 dark:hover:text-brand-accent transition-colors;
+}
+
+.navbar-theme-btn {
+  @apply p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors;
+}
+
+.navbar-mobile-controls {
+  @apply md:hidden flex items-center space-x-2 sm:space-x-3;
+}
+
+.navbar-menu-btn {
+  @apply p-2 text-gray-600 dark:text-gray-300;
+}
+
+.navbar-mobile-menu {
+  @apply md:hidden bg-brand-bg dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 px-4 py-4 space-y-2;
+}
+
+.navbar-mobile-link {
+  @apply block py-2 cursor-pointer text-base font-semibold text-gray-600 hover:text-brand-primary dark:text-gray-300 dark:hover:text-brand-accent;
+}
