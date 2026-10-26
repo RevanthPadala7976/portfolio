@@ -4,6 +4,7 @@ node_modules
 # Production build
 dist
 dist-ssr
+.vercel
 
 # Local environment variables
 .env.local
@@ -12,3 +13,4 @@ dist-ssr
 # OS & Editor files
 .DS_Store
 *.local
+.env*
